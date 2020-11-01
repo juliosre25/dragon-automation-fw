@@ -1,9 +1,8 @@
-@ApiRest
+
 Feature: REST - Exchange REST testing
   As a user...
   I want to ...
 
-  @ApiRest
   Scenario: Exchange PEN to USD
     Given System is ready to sent request
     When System sends a request to exchange service:
@@ -18,7 +17,6 @@ Feature: REST - Exchange REST testing
       | currencyIsoTarget      | USD       |
       | exchangeRate           | 3.35      |
 
-  @ApiRest
   Scenario: Exchange USD to PEN
     Given System is ready to sent request
     When System sends a request to exchange service:
