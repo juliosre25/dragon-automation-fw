@@ -1,8 +1,9 @@
+@ApiRest
 Feature: REST - Redmine REST testing - Create project
   As a user...
   I want to ...
 
-
+@ApiRest
   Scenario: Create an project - JSON
     Given System is ready to sent request
     When System sends a request to create project service from redmine
