@@ -31,7 +31,7 @@ Feature: REST - Exchange REST testing
       | currencyIsoTarget      | PEN    |
       | exchangeRate           | 3.33   |
 
-  @ApiRest
+
   Scenario: Exchange EUR to PEN
     Given System is ready to sent request
     When System sends a request to exchange service:
